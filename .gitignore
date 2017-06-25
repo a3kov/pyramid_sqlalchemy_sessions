@@ -1,0 +1,15 @@
+*.egg-info
+*.pyc
+*$py.class
+*~
+.coverage
+.coverage.*
+.tox/
+coverage.xml
+coverage-*.xml
+build/
+dist/
+env*/
+venv/
+_build/
+.hypothesis/

@@ -1,8 +1,6 @@
 import logging
 import pytest
 from logging.config import dictConfig
-
-
 from hypothesis import settings
 
 

@@ -240,7 +240,7 @@ def _process_factory_args(args):
                 msg_template = ("%s is enabled, but the model class does not"
                                 " inherit from %s")
                 raise ConfigurationError(
-                    msg_template % (timeout, mixin.__class__.__name__)
+                    msg_template % (timeout, mixin.__name__)
                 )
 
     # Patch non-configurable mixins to help hybrid properties.

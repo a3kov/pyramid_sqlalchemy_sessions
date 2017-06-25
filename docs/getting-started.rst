@@ -15,7 +15,7 @@ Session cookie only contains randomly generated session ID required to
 refer the DB entry and is fully encrypted in AES-GCM mode using
 `PyCryptodome <https://www.pycryptodome.org>`_ library.
 
-The library features are fully structured, and you are only paying for what
+The library features are fully modularized, and you are only paying for what
 you are using.
 
 The library aims to provide secure solution by default, and to use best
@@ -27,22 +27,19 @@ Why would you (not) need this library
 
 You may need this library if:
 
-* you need ability to store login and session state server-side, for security
+* You need ability to store login and session state server-side, for security
   or any other reasons
   
-* you need reliable session data storage
-
+* You need reliable session data storage
   As we depend on `SQLAlchemy <http://www.sqlalchemy.org/>`_, you can try to
   use any ACID-compatible DB engine if it's supported by SQLAlchemy.
   
-* you want to store important data in the session
-
+* You want to store important data in the session.
   Valid usecases include things like: authentication data, 
   online store shopping cart, multi-step form wizard state, 
   user preferences, etc. 
 
-* you want (or don't mind) your session data to be transactional
-
+* You want (or don't mind) your session data to be transactional.
   The library will use same dbsession as your app and will automatically join
   all transactions. So you can be sure that any ``ROLLBACK`` for your main
   data will not leave inconsistent session data.
@@ -56,15 +53,14 @@ You may skip this library if:
 * you want to store not very important information or even throw-away data
 
 * you require that session data should be always saved, regardless of
-  transaction results, such as if you collect statistics.
+  transaction results, e.g. if you collect statistics.
   This is a big No to this library.
 
 * you don't care about transactions, data reliability and don't mind to lose
-  session data from time to time
-  
+  session data from time to time.
   In this case you could pick a memory-based session backend, like 
   `pyramid_redis_sessions`_.
-  
+
   .. _pyramid_redis_sessions:
     https://pypi.python.org/pypi/pyramid_redis_sessions
   
@@ -101,7 +97,6 @@ The library will assume the following:
 
 * You don't clear your :term:`sqla:session` by running 
   ``dbsession.expunge_all()``, etc.
-  
   As the library will share the DB :term:`sqla:session` with your app,
   both your main data and the library data need to coexist peacefully.
   

@@ -1,3 +1,7 @@
+.. image:: https://readthedocs.org/projects/pyramid-sqlalchemy-sessions/badge/?version=latest
+:target: http://pyramid-sqlalchemy-sessions.readthedocs.io/en/latest/?badge=latest
+:alt: Documentation Status
+
 ``pyramid_sqlalchemy_sessions`` is a
 `Pyramid framework <https://docs.pylonsproject.org/projects/pyramid/>`_
 add-on library providing a session implementation using 

@@ -3,10 +3,8 @@ from setuptools import setup
 try:
     with open('README.rst') as f:
         README = f.read()
-    with open(os.path.join(here, 'CHANGES.txt')) as f:
-        CHANGES = f.read()
 except IOError:
-    README = CHANGES = ''
+    README = ''
 
 requires = [
     'pyramid',

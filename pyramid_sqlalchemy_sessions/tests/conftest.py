@@ -30,9 +30,6 @@ def pytest_addoption(parser):
     help_text = ("Enable logging. May output potentially overwhelming amount"
                  " of information, so pick your tests carefully.")
     parser.addoption("--enable-logging", action="store_true", help=help_text)
-    
-    help_text2 = "Set hypothesis max_examples=1"
-    parser.addoption("--one-example", action="store_true", help=help_text2)
 
 
 @pytest.fixture(autouse=True, scope='session')

@@ -99,7 +99,7 @@ def factory_args_from_settings(settings, maybe_dotted,
     settings
         dictionary of Pyramid app settings (**required**)
     maybe_dotted
-        a function to resolve dotted Python name to a full class
+        a callable to resolve dotted Python name to a full class
         (**required**)
     prefix
         settings names prefix

@@ -85,7 +85,7 @@ Idle Timeout. The example also showcases:
   Runtime-configurable features mixins subclass their non-configurable
   versions, so you don't need to include both.
 
-.. note::
+.. tip::
   Don't forget to add DB indexes to your session table! The library doesn't
   provide one, as it's difficult to create universal index solution for all
   mixin configurations and different DB engines.

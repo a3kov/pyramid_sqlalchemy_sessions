@@ -28,7 +28,7 @@ setup(
                 'on SQLAlchemy storage backend',
     url='http://github.com/corehack/pyramid_sqlalchemy_sessions',
     author='Andrey Tretyakov',
-    author_email='bezopasno@gmail.com',
+    author_email='corehack@users.noreply.github.com',
     license='MIT',
     packages=['pyramid_sqlalchemy_sessions'],
     zip_safe=False,

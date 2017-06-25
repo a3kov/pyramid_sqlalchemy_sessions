@@ -190,8 +190,8 @@ cookie_name : str
     Default: ``session``
 
 cookie_max_age : int or None
-    How long the browser will store the cookie.
-    (non-persistent cookie).
+    How long the browser will store the cookie. ``None`` is for
+    non-persistent cookie.
     See :doc:`webob:index` and :rfc:`6265` for details.
     
     Default: ``None``

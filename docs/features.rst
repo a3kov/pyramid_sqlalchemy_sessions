@@ -194,6 +194,7 @@ more DRY approach.
   The library will not register :class:`.UserSessionAuthenticationPolicy`
   as the authentication policy automatically. You have to do it yourself.
 
+
 .. _csrf-feature:
 
 CSRF

@@ -59,10 +59,13 @@ You may skip this library if:
 * you don't care about transactions, data reliability and don't mind to lose
   session data from time to time.
   In this case you could pick a memory-based session backend, like 
-  `pyramid_redis_sessions`_.
+  `pyramid_redis_sessions`_. or `pyramid_session_redis`_
 
   .. _pyramid_redis_sessions:
     https://pypi.python.org/pypi/pyramid_redis_sessions
+    
+  .. pyramid_session_redis:
+    https://github.com/jvanasco/pyramid_session_redis
   
 .. note::
   Without a server-side backend it's impossible to securely

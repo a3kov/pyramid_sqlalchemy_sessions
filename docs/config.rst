@@ -3,8 +3,8 @@ Configuration guide
 ===================
 
 
-Introduction 
-============
+Overview 
+========
 You can configure session factory in 2 steps:
 
 #. Pick desired :doc:`session features <features>` and add corresponding 

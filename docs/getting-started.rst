@@ -64,7 +64,7 @@ You may skip this library if:
   .. _pyramid_redis_sessions:
     https://pypi.python.org/pypi/pyramid_redis_sessions
     
-  .. pyramid_session_redis:
+  .. _pyramid_session_redis:
     https://github.com/jvanasco/pyramid_session_redis
   
 .. note::

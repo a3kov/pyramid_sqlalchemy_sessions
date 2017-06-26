@@ -37,7 +37,7 @@ You may need this library if:
 * You want to store important data in the session.
   Valid usecases include things like: authentication data, 
   online store shopping cart, multi-step form wizard state, 
-  user preferences, etc. 
+  user preferences, etc.
 
 * You want (or don't mind) your session data to be transactional.
   The library will use same dbsession as your app and will automatically join

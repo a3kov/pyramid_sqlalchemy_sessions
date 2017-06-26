@@ -192,8 +192,7 @@ more DRY approach.
 
 .. note::
   The library will not register :class:`.UserSessionAuthenticationPolicy`
-  as the authn policy automatically inside :func:`includeme()` function.
-  You have to do it yourself.
+  as the authentication policy automatically. You have to do it yourself.
 
 .. _csrf-feature:
 

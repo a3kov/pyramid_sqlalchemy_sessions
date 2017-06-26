@@ -7,7 +7,7 @@ except IOError:
     README = ''
 
 requires = [
-    'pyramid',
+    'pyramid < 2',
     'pyramid_tm',
     'SQLAlchemy',
     'zope.sqlalchemy',

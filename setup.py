@@ -34,6 +34,17 @@ setup(
     version='0.1',
     description='Provides session implementation for Pyramid framework based'
                 'on SQLAlchemy storage backend',
+    long_description=README,
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Framework :: Pyramid',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Topic :: Internet :: WWW/HTTP :: Session',
+    ],
+    keywords='pyramid session sqlalchemy',
     url='http://github.com/corehack/pyramid_sqlalchemy_sessions',
     author='Andrey Tretyakov',
     author_email='corehack@users.noreply.github.com',

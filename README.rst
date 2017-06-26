@@ -12,13 +12,14 @@ Session cookie only contains randomly generated session ID required to
 refer the DB entry and is fully encrypted in AES-GCM mode using
 `PyCryptodome <https://www.pycryptodome.org>`_ library.
 
-The library features are fully structured, and you are only paying for what
-you are using.
 
-The library aims to provide secure solution by default, and to use best
-security practices.
+Library
+`source code <https://github.com/corehack/pyramid_sqlalchemy_sessions>`_
+is available under MIT License.
 
-Library source code is available under MIT License.
+`Documentation <https://pyramid-sqlalchemy-sessions.readthedocs.io/>`_
+is provided under 
+`Creative Commons Attribution-ShareAlike 4.0 International Public License <\
+https://creativecommons.org/licenses/by-sa/4.0/legalcode>`_
 
-Documentation is provided under Creative Commons Attribution-ShareAlike 4.0 
-International Public License
+

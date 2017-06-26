@@ -30,7 +30,7 @@ You may need this library if:
 * You need ability to store login and session state server-side, for security
   or any other reasons
   
-* You need reliable session data storage
+* You need reliable session data storage.
   As we depend on `SQLAlchemy <http://www.sqlalchemy.org/>`_, you can try to
   use any ACID-compatible DB engine if it's supported by SQLAlchemy.
   

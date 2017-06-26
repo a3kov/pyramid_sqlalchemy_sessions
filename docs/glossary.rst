@@ -19,7 +19,7 @@ Glossary of terms
   
   model
       SQLAlchemy ORM model class, subclassing *declarative Base* and selected 
-      session model mixins. In the context of this library, a model is a
+      model mixins. In the context of this library, a model is a
       class referenced by the ``model_class`` setting.
   
   new session

@@ -4,7 +4,7 @@
 
 ``pyramid_sqlalchemy_sessions`` is a
 `Pyramid framework <https://docs.pylonsproject.org/projects/pyramid/>`_
-add-on library providing a session implementation using 
+add-on library providing session implementation using 
 `SQLAlchemy <http://www.sqlalchemy.org/>`_ as a storage backend.
 
 

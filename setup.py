@@ -10,7 +10,6 @@ requires = [
     'pyramid',
     'pyramid_tm',
     'SQLAlchemy',
-    'transaction',
     'zope.sqlalchemy',
     'pycryptodomex',
 ]

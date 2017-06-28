@@ -14,7 +14,7 @@ is available under MIT License.
 
 `Documentation <https://pyramid-sqlalchemy-sessions.readthedocs.io/>`_
 is provided under 
-`Creative Commons Attribution-ShareAlike 4.0 International Public License <\
-https://creativecommons.org/licenses/by-sa/4.0/legalcode>`_
+`Creative Commons Attribution-ShareAlike 4.0 International Public License
+<https://creativecommons.org/licenses/by-sa/4.0/legalcode>`_
 
 

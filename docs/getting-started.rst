@@ -115,7 +115,7 @@ The library will assume the following:
   would want to retry instead of showing 500 page to the
   user, so it's a welcomed feature.
   
-* You code expects that your :term:`session data` won't be always committed 
+* Your code expects that your :term:`session data` won't be always committed 
   to the DB. For example, in Pyramid you can *raise* or
   *return* HTTP exceptions. For an app the difference between the two 
   is not always significant, but for the library it is huge:
@@ -141,7 +141,8 @@ Quick Start
 ===========
 
 Let's configure a minimal session. We will assume you created a project
-using cookiecutter, and your DB session is available as ``request.dbsession``.
+using ``pyramid-cookiecutter-alchemy`` cookiecutter, and your DB session
+is available as ``request.dbsession``.
  
 Create ``session.py`` file in your ``models`` subpackage and add the 
 following lines: ::

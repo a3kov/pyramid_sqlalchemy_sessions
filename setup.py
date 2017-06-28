@@ -30,7 +30,7 @@ tests_extras = tests_require
 
 setup(
     name='pyramid_sqlalchemy_sessions',
-    version='0.1',
+    version='0.1.0',
     description='Provides session implementation for Pyramid framework based'
                 'on SQLAlchemy storage backend',
     long_description=README,

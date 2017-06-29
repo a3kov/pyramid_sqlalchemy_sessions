@@ -49,7 +49,8 @@ Glossary of terms
       Session not containing any :term:`session data`.
   
   dirty session
-      Session having unsaved (uncommitted) :term:`session data`.
+      A new session having uncommitted :term:`session data`, or
+      an existing session having any uncommitted data.
   
   session extension
       A process of updating session idle expiration timestamp, or in 

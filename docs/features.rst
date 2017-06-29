@@ -170,25 +170,15 @@ The feature allows to *explicitly* associate sessions with users:
 1. User ID is stored in a dedicated session table column. This brings some
    important advantages:
 
-   * you can query sessions by user
-   
-     Need to invalidate all sessions of a user ? No problem. Need to show the
-     user all his "login sessions" so that he could log out suspicious
-     ones ? Sure.
-   * you can eager-load additional data the current :term:`view` may require
-   
+   * you can query sessions by user. For example, you can invalidate all 
+     sessions of a user, or show the user his "login sessions".
+     
+   * you can eager-load additional data the current :term:`view` may require.
      Just configure some eager-loading relationships on your model and some
-     of your views will run only a single query per request.
+     of your views will only run a single query per request.
 
 2. The library provides :class:`.UserSessionAuthenticationPolicy` that uses 
    the explicit API of this feature.
-
-Some people may argue that mixing authentication and sessions is not a good
-idea. But when you think about logging in - what is a login ? A session.
-Login session maps naturally to :term:`session`, it has similar 
-properties and lifetime, and may enforce similar security policies.
-The library author thinks that having it together is the right,
-more DRY approach.
 
 .. note::
   The library will not register :class:`.UserSessionAuthenticationPolicy`

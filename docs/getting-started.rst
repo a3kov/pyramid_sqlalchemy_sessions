@@ -27,7 +27,7 @@ Why would you (not) need this library
 
 You may need this library if:
 
-* You need ability to store login and session state server-side, for security
+* You need ability to store session data server-side, for security
   or any other reasons
   
 * You need reliable session data storage.
